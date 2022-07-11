@@ -1,12 +1,12 @@
 import '../styles/globals.css'
 import Link from 'next/link'
-
+import Image from 'next/image'
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
         <p className="text-4xl font-bold">
-          <img src="/logo.png" width="140px" height="38px" style={{display: 'inline-block', marginRight: '20px'}}/>
+          <Image src="/logo.png" width="140px" height="38px" style={{display: 'inline-block', marginRight: '20px'}} alt="logo"/>
           Metaverse Marketplace
         </p>
         <div className="flex mt-4">
